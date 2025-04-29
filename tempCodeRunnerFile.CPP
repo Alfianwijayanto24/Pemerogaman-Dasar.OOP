@@ -1,10 +1,12 @@
-int main(){
-    Mahasiswa mhs;
-     mhs.nim = 2024;
-     mhs.nama = "abrs";
-     mhs.nilai = 80.5;
+class Mahasiswa{
+    public:
+    int nim;
+    string nama;
+    float nilai;
 
-     mhs.prindata();
-    
-   
-}
+    void prindata(){
+        cout << "Nim :" << nim << endl;
+        cout << "Nama :" << nama << endl;
+        cout << "Nilai :" << nilai << endl;
+
+    }
